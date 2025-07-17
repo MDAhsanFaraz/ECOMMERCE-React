@@ -1,9 +1,16 @@
-import { Button } from "reactstrap";
+import Header from "./Components/Header/Header";
+
 function App() {
   return (
-    <Button color="info" outline size="sm">
-      Click Me
-    </Button>
+    <>
+      <Header
+        color="light"
+        light={true}
+        expand="md"
+        container="md"
+        fixed="top"
+      />
+    </>
   );
 }
 

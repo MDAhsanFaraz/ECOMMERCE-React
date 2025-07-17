@@ -1,5 +1,10 @@
+import { Button } from "reactstrap";
 function App() {
-  return <></>;
+  return (
+    <Button color="info" outline size="sm">
+      Click Me
+    </Button>
+  );
 }
 
 export default App;
